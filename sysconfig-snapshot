@@ -163,7 +163,7 @@ generate_report()
    echo -e "\n###############################################################\n"
    echo -e "\tPROCESSES:"
    echo -e "\n###############################################################\n"
-   echo -e "#Process list:\n\n$(get_ps_list)\n" 
+   echo -e "#Process list:\n\n$(get_ps_list)\n\n$(get_ps_info_full)\n" 
 }
 
 #Main section
